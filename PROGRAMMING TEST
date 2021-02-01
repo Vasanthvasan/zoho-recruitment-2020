@@ -2,8 +2,8 @@
 #include<conio.h>
 void snakemat(int num)
 {
-	int i,count=0,val=1,val_range=1;
-	do(range>0)
+	int i,count=0,val=1,range=1,spaces,val_range=1;
+	while(range>0)
 	{
 		if(i=0;i<spaces;i++)
 		{
@@ -29,7 +29,7 @@ void snakemat(int num)
 			val = val+ num;
 			val_range = val ;
 			count = 0;
-			// break;
+		        break;
 		}
 		printf("\n");
 		range = range - 1 ;
